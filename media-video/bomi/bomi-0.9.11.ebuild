@@ -1,4 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -22,10 +22,10 @@ RDEPEND="dev-libs/fribidi
 	dev-qt/qtchooser[qt5]
 	>=dev-qt/qtcore-5.3
 	>=dev-qt/qtdbus-5.3
-	>=dev-qt/qtdeclarative-5.3
-	>=dev-qt/qtgui-5.3
+	>=dev-qt/qtdeclarative-5.3[-gles2]
+	>=dev-qt/qtgui-5.3[-gles2]
 	>=dev-qt/qtnetwork-5.3
-	>=dev-qt/qtopengl-5.3
+	>=dev-qt/qtopengl-5.3[-gles2]
 	>=dev-qt/qtquickcontrols-5.3
 	>=dev-qt/qtsql-5.3
 	>=dev-qt/qtsvg-5.3
