@@ -29,7 +29,7 @@ RDEPEND="dev-libs/fribidi
 	>=dev-qt/qtquickcontrols-5.3
 	>=dev-qt/qtsql-5.3
 	>=dev-qt/qtsvg-5.3
-	>=dev-qt/qtwidgets-5.3
+	>=dev-qt/qtwidgets-5.3[-gles2]
 	>=dev-qt/qtx11extras-5.3
 	>=dev-qt/qtxml-5.3
 	media-libs/alsa-lib
