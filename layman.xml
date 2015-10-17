@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[bomi]]></name>
+    <description><![CDATA[Bomi Overlay]]></description>
+    <homepage>http://github.com/mmstick/bomi-overlay</homepage>
+    <owner>
+      <email>mmstickman@gmail.com</email>
+    </owner>
+    <source type="git">git://github.com/mmstick/bomi-overlay.git</source>
+  </repo>
+</repositories>
