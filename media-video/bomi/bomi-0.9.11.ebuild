@@ -12,14 +12,14 @@ SRC_URI="https://github.com/xylosper/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="aacs bdplus cdda jack pulseaudio samba systemd vaapi vdpau youtube-dl"
 
 RDEPEND="dev-libs/fribidi
 	dev-libs/icu
 	dev-libs/libchardet
 	dev-qt/linguist-tools
-	dev-qt/qtchooser[qt5]
+	dev-qt/qtchooser
 	>=dev-qt/qtcore-5.3
 	>=dev-qt/qtdbus-5.3
 	>=dev-qt/qtdeclarative-5.3[-gles2]
